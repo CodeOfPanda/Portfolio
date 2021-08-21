@@ -17,7 +17,7 @@ export default function Container(props) {
   const router = useRouter();
   const meta = {
     title: 'Maggie Leigland',
-    description: `Software engineering student, lifetime learner, nature lover`,
+    description: `Computer Science student, lifetime learner, nature lover`,
     type: 'website',
     ...customMeta
   };
