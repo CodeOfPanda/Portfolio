@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import Timeline from '../components/Timeline';
 import Container from '../components/Container';
-// import BlogPost from '../components/BlogPost';
 import ProjectCard from '../components/ProjectCard';
-// import VideoCard from '../components/VideoCard';
 
 export default function Home() {
   return (
