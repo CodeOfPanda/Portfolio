@@ -12,9 +12,9 @@ class MyDocument extends Document {
             type="font/woff2"
             crossOrigin="anonymous"
           />
-          <link href="/static/favicons/favicon.ico" rel="shortcut icon" />
-          <link href="/static/favicons/site.webmanifest" rel="manifest" />
-          <link
+          {/* <link href="/static/favicons/favicon.ico" rel="shortcut icon" /> */}
+          {/* <link href="/static/favicons/site.webmanifest" rel="manifest" /> */}
+          {/* <link
             href="/static/favicons/apple-touch-icon.png"
             rel="apple-touch-icon"
             sizes="180x180"
@@ -35,13 +35,13 @@ class MyDocument extends Document {
             color="#4a9885"
             href="/static/favicons/safari-pinned-tab.svg"
             rel="mask-icon"
-          />
+          /> */}
           <meta content="#ffffff" name="theme-color" />
           <meta content="#ffffff" name="msapplication-TileColor" />
-          <meta
+          {/* <meta
             content="/static/favicons/browserconfig.xml"
             name="msapplication-config"
-          />
+          /> */}
           <meta content="14d2e73487fa6c71" name="yandex-verification" />
           <meta
             content="eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw"
