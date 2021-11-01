@@ -26,6 +26,12 @@ export default function Home() {
           Projects
         </h3>
         <ProjectCard
+          title="Path Finding Algorithm"
+          description="Nearest neighbors path finding algorithm implementation to calculate the shortest distance each delivery truck can take to deliver their respective packages"
+          href="https://github.com/CodeOfPanda/C950_DSAII_Path_Finding_Project"
+          icon="truck"
+        />
+        <ProjectCard
           title="Scheduling System"
           description="JavaFX CRUD GUI application that was built with Java 11 and SceneBuilder to allow users to create and interact with customer appointments, while utilizing a MySQL database to store customer data for later access and analysis"
           href="https://github.com/CodeOfPanda/Software2_Scheduling_GUI"

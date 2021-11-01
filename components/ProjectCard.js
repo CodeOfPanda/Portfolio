@@ -1,4 +1,4 @@
-import { Calendar, Student, Wrench } from 'phosphor-react';
+import { Calendar, Student, Wrench, Truck, Path } from 'phosphor-react';
 
 export default function ProjectCard({ title, description, href, icon }) {
   return (
@@ -32,8 +32,18 @@ export default function ProjectCard({ title, description, href, icon }) {
         )}
         {icon == 'wrench' && (
           <div className="h-8 w-8 ml-2 mr-4">
-            <span className="sr-only">Class Roster</span>
+            <span className="sr-only">Inventory Management System</span>
             <Wrench
+              className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"
+              weight="fill"
+              size={42}
+            />
+          </div>
+        )}
+        {icon == 'truck' && (
+          <div className="h-8 w-8 ml-2 mr-4">
+            <span className="sr-only">Path Finding Algorithm</span>
+            <Truck
               className="h-8 w-8 min-w-sm text-gray-900 dark:text-gray-100"
               weight="fill"
               size={42}

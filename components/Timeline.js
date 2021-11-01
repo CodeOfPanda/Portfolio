@@ -114,41 +114,57 @@ export default function Timeline() {
       <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
         Timeline
       </h3>
-      <Year>2020</Year>
+      <Year>2021</Year>
       <ul>
-        <Step title="Started WGU 🎊">
-          Finally got to start school! I loved my first semester and took some
-          great courses such as Software I (Java), Scripting & Programming
-          (C++), Calculus I, Probability & Statistics, and Discrete Math I.
+        <Step title="Third Semester 🚀">
+          I feel like I'm rolling now! This semester was a lot of fun and I've
+          learned a lot. Had some of my tougher classes like Data Structures &
+          Algorithms 2, where I built a path finding algorithm CLI program to
+          calculate the shortest path to deliver packages on trucks around Salt
+          Lake City, Utah. I also took Discrete Mathematics 2 which I loved!
+          Slightly bummed that I don't have any more math classes in my degree
+          now. To round out my semester I also took Computer Architecture as
+          well as Operating Systems and really enjoyed both of those.
         </Step>
-        <Step title="2nd Semester">
-          After enjoying my first semester, I started back up again and took the
-          following classes: Software II (Advanced Java), Data Structures &
-          Algorithms I, Data Management (SQL), CompTIA Project+ certification,
-          and ITIL 4 certification.
-        </Step>
+
         <Divider />
-        <Year>2019</Year>
+        <Year>2020</Year>
         <ul>
-          <Step title="Second Time Betting On Myself">
-            After falling in love with programming and spending countless nights
-            learning, reading textbooks, and working on projects, I finally
-            decided to stop training Muay Thai and quit all of my service jobs
-            to go back to school and study computer science so I could
-            eventually be a software engineer and write code for a career.
+          <Step title="Started WGU 🎊">
+            Finally got to start school! I loved my first semester and took some
+            great courses such as Software I (Java), Scripting & Programming
+            (C++), Calculus I, Probability & Statistics, and Discrete Math I.
           </Step>
-          <Step title="Preparing for College Round 2">
-            I decided that I wanted to attend Western Governors University's
-            Computer Science program as I had been having a lot of success and
-            enjoyed self-teaching myself concepts online, and the program
-            offered great coursework with the ability for me to work hard and
-            accelerate.
+          <Step title="2nd Semester">
+            After enjoying my first semester, I started back up again and took
+            the following classes: Software II (Advanced Java), Data Structures
+            & Algorithms I, Data Management (SQL), CompTIA Project+
+            certification, and ITIL 4 certification.
           </Step>
-          <Step title="Honing My Skills 🔨">
-            I wanted to make sure I would succeed at school, so I spent a couple
-            months studying math through Khan Academy working my all the way
-            through Calculus I & II to prepare for the program.
-          </Step>
+          <Divider />
+          <Year>2019</Year>
+          <ul>
+            <Step title="Second Time Betting On Myself">
+              After falling in love with programming and spending countless
+              nights learning, reading textbooks, and working on projects, I
+              finally decided to stop training Muay Thai and quit all of my
+              service jobs to go back to school and study computer science so I
+              could eventually be a software engineer and write code for a
+              career.
+            </Step>
+            <Step title="Preparing for College Round 2">
+              I decided that I wanted to attend Western Governors University's
+              Computer Science program as I had been having a lot of success and
+              enjoyed self-teaching myself concepts online, and the program
+              offered great coursework with the ability for me to work hard and
+              accelerate.
+            </Step>
+            <Step title="Honing My Skills 🔨">
+              I wanted to make sure I would succeed at school, so I spent a
+              couple months studying math through Khan Academy working my all
+              the way through Calculus I & II to prepare for the program.
+            </Step>
+          </ul>
         </ul>
       </ul>
       {isShowingFullTimeline ? (
