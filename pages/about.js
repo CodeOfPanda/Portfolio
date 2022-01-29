@@ -43,6 +43,9 @@ export default function About() {
             Computer Science program. Check out my timeline on the homepage for
             more about me!
           </p>
+          <div>
+            <Link href="https://codeofpanda.github.io/Digital-Business-Card/"><a>Check out my digital business card!</a></Link>
+          </div>
         </div>
       </div>
     </Container>
